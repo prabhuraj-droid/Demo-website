@@ -88,9 +88,10 @@ h1 {
   translate: 1.5px 1.5px;
   box-shadow: 1.5px 1.5px 0 #000000;
   background: #1ac2ff;
+  outline: none;
 }
 
-.button:active {
+.button:active,button:focus {
   translate: 3px 3px;
   box-shadow: 0 0 0 #000000;
   outline: none;
